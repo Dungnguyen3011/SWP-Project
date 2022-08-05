@@ -1,0 +1,159 @@
+
+
+h2 {
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#carouselExampleIndicators {
+  padding-bottom: 90px;
+}
+
+.slide-show {
+  background-color: #1e8ff1;
+}
+
+.swiper-container {
+  width: 900px;
+  height: 500px;
+}
+
+.swiper-container p {
+  text-align: center;
+  font-style: italic;
+}
+
+
+
+.container.wish-list .card-body{
+  padding: 0.5rem;
+  
+}
+.wish-list p {
+  text-align: initial;
+  font-style: italic;
+}
+
+footer {
+  background-color: #03045e;
+  max-height: fit-content;
+  margin-top: 1.5rem;
+}
+.footer-wraper {
+  height: 270px;
+}
+.first-col img {
+}
+/* first col  */
+.first-col p {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+#footer-description {
+  margin-top: 20px;
+}
+#logo-name {
+  color: aliceblue;
+  font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 10px;
+}
+/* second col */
+
+.second-col h5 {
+  color: aliceblue;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.second-col ul {
+  list-style: none;
+}
+.second-col li {
+  padding: 10px 10px;
+}
+.second-col a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* third col */
+.third-col h5 {
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+.third-col li {
+  color: aliceblue;
+  list-style: none;
+}
+.icon-mail {
+  display: inline-block;
+}
+.icon-location {
+  display: inline-block;
+}
+.icon-phone {
+  display: inline-block;
+}
+.phone-footer {
+  display: inline-block;
+}
+.location-footer p {
+  display: inline-block;
+}
+.mail-footer {
+  display: inline-block;
+}
+#logo-name {
+  display: inline-block;
+  
+  margin-bottom:0;
+}
+
+.mr-95{
+    margin-right: 660px;
+}
+
+/*Drop down*/
+.user-profile{
+    position: relative;
+    display: inline-block;
+    height: 60px;
+   
+}
+.user{
+  padding: 10px;  
+  outline:none;
+  margin-top: 10px;
+  border-radius: 50px;
+  
+}
+.dropdown-menu {
+    display:none;
+    position:absolute;
+    background: #fff;
+    width:100px;
+    top:55px;  
+    z-index: 10000;
+}
+.dropdown-menu a{
+    display:block;
+    text-decoration: none;
+    margin-left: 10px;
+    line-height: fit;
+    margin-top: 5px;
+    
+}
+
+.dropdown-menu a:last-child{
+    margin-bottom: 5px;
+}
+.dropdown-menu a:hover {
+    background:#adb5bd;
+    color: black;
+}
+.user-profile:hover .dropdown-menu{
+    display:block !important;
+}
